@@ -92,81 +92,30 @@ class: exercise-header
 
 ---
 
-# Step 2 — Run the setup script
+# Step 2 — Open the workshop in Saarai
 
-<div class="os-split">
-  <div class="os-box os-mac">
-    <div class="os-head"><span>🍎</span> Mac</div>
-    <div class="os-body">
-      <ol>
-        <li>Open <strong>Terminal</strong> — press <code>Cmd+Space</code>, type <em>Terminal</em>, press Enter</li>
-        <li>Type <code>bash </code> with a space (don't press Enter yet)</li>
-        <li>Open the <code>setup</code> folder → drag <strong><code>setup.command</code></strong> into the Terminal window</li>
-        <li>Press Enter</li>
-      </ol>
-    </div>
-  </div>
-  <div class="os-box os-win">
-    <div class="os-head"><svg width="16" height="16" viewBox="0 0 88 88" style="flex-shrink:0"><rect fill="#F25022" x="0" y="0" width="40" height="40"/><rect fill="#7FBA00" x="48" y="0" width="40" height="40"/><rect fill="#00A4EF" x="0" y="48" width="40" height="40"/><rect fill="#FFB900" x="48" y="48" width="40" height="40"/></svg> Windows</div>
-    <div class="os-body">
-      <ol>
-        <li>Open the <code>setup</code> folder in File Explorer</li>
-        <li>Click the <strong>address bar</strong> at the top → type <code>cmd</code> → press Enter</li>
-        <li>Type <code>setup.bat</code> and press Enter</li>
-      </ol>
-    </div>
-  </div>
-</div>
-
-If you see this, you're all good:
-
-```
-[ OK ] Python 3.12.3 (bundled)
-[ OK ] Loaded 9237 songs.
-
-*** ALL DONE — YOU'RE GOOD TO GO! ***
-```
-
-<FileHint file="exercise_00_setup_check.py" />
-
----
-
-# Step 3 — Install &amp; Open VS Code
-
-<div class="setup-step">VS Code is the program you'll write Python in.</div>
-
-<div class="setup-step">If you don't have VS Code yet: go to <strong>code.visualstudio.com</strong> → download and install it</div>
-
-1. Open **VS Code**
-2. **File → Open Folder…**
-3. Find your workshop folder → select it → click **Open**
+1. Go to **saarai.dev** in your browser
+2. Click **File → Open Folder**
+3. Find your workshop folder (e.g. on the Desktop) → select it → click **Open**
 4. You'll see the `exercises` folder appear in the left panel
 
-> **Mac:** if VS Code asks _"Do you trust the authors?"_ → click **Yes, I trust the authors**
+> **Mac:** your browser may ask for permission to access your files — click **Allow**
 
 <FileHint file="exercise_00_setup_check.py" />
 
 ---
 
-# Step 4 — Run your first exercise
+# Step 3 — Run your first file
 
-Open the terminal _inside_ VS Code:
+In the left panel, open the `exercises` folder and click on **`exercise_00_setup_check.py`**.
 
-Press `` Ctrl+` `` — the **backtick** key, top-left of the keyboard next to `1`
-
-A panel opens at the bottom of VS Code. Type this and press Enter:
-
-```bash
-python3 exercises/exercise_00_setup_check.py
-```
-
-You should see:
+Click the **Run** button. You should see:
 
 ```
 Everything is set up correctly — you're ready to go!
 ```
 
-> **Windows:** if `python3` isn't recognised, try `python` instead
+You're done! Start on Exercise 1.
 
 <FileHint file="exercise_00_setup_check.py" />
 
@@ -804,11 +753,6 @@ for i, song in enumerate(lines, start=1):
 
 # Want to explore 9,000+ real songs?
 
-Open the Data Explorer from the `setup` folder:
-
-| Platform | File                    |
-| -------- | ----------------------- |
-| Mac      | `setup/explore.command` |
-| Windows  | `setup/explore.bat`     |
+Open the **Data Explorer**: **tinyurl.com/7tdxxp57**
 
 Search by song, artist, or genre — then use what you find in your exercises.

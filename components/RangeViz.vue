@@ -108,17 +108,17 @@ onUnmounted(() => clearInterval(timer))
 
 .rv-label {
   font-size: 0.9rem;
-  color: #696C77;
+  color: #706273;
 }
 
 .rv-label code {
   font-family: 'Fira Code', monospace;
   font-size: 0.9rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 4px;
   padding: 0.05rem 0.4rem;
-  color: #4078F2;
+  color: #12948A;
 }
 
 .rv-boxes {
@@ -133,8 +133,8 @@ onUnmounted(() => clearInterval(timer))
   align-items: center;
   gap: 0.3rem;
   padding: 0.7rem 0.5rem 0.5rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   font-family: 'Fira Code', monospace;
   font-size: 0.95rem;
@@ -142,23 +142,23 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .rv-box-active {
-  background: #e8effe;
-  border-color: #4078F2;
-  color: #4078F2;
+  background: #E6F7F5;
+  border-color: #12948A;
+  color: #12948A;
   transform: translateY(-4px);
-  box-shadow: 0 3px 10px rgba(64,120,242,0.18);
+  box-shadow: 0 3px 10px rgba(18, 148, 138, 0.18);
 }
 
 .rv-box-visited {
-  background: #eaf3ea;
-  border-color: #9ecf9d;
-  color: #50A14F;
+  background: #E6FBF3;
+  border-color: #80D4B0;
+  color: #00AB6C;
 }
 
 .rv-box-i { font-weight: 700; font-size: 0.88rem; }
 
 .rv-box-ptr {
-  color: #4078F2;
+  color: #12948A;
   font-size: 0.8rem;
   animation: rv-blink 0.8s ease-in-out infinite;
 }
@@ -172,19 +172,19 @@ onUnmounted(() => clearInterval(timer))
 .rv-output {
   display: flex;
   flex-direction: column;
-  border: 1px solid #D3D3D4;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   overflow: hidden;
-  background: #FAFAFA;
+  background: #F8F5F0;
   font-family: 'Fira Code', monospace;
 }
 
 .rv-output-bar {
   padding: 0.35rem 0.85rem;
-  background: #ECEDEF;
-  border-bottom: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border-bottom: 1px solid #D6D2D7;
   font-size: 0.75rem;
-  color: #696C77;
+  color: #706273;
   letter-spacing: 0.05em;
 }
 
@@ -198,7 +198,7 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .rv-empty {
-  color: #A0A1A7;
+  color: #A89DAD;
   font-size: 0.88rem;
   margin: auto;
   text-align: center;
@@ -212,8 +212,8 @@ onUnmounted(() => clearInterval(timer))
   animation: rv-fadein 0.2s ease-out;
 }
 
-.rv-prompt { color: #50A14F; font-size: 0.8rem; }
-.rv-chorus { color: #383A42; }
+.rv-prompt { color: #00AB6C; font-size: 0.8rem; }
+.rv-chorus { color: #321E37; }
 
 @keyframes rv-fadein {
   from { opacity: 0; transform: translateY(3px); }
@@ -229,25 +229,25 @@ onUnmounted(() => clearInterval(timer))
 
 .rv-btn {
   padding: 0.4rem 1.1rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 6px;
   font-family: 'Fira Code', monospace;
   font-size: 0.88rem;
-  color: #383A42;
+  color: #321E37;
   cursor: pointer;
   transition: background 0.1s;
 }
 
-.rv-btn:hover:not(:disabled) { background: #E5E5E6; }
+.rv-btn:hover:not(:disabled) { background: #D6D2D7; }
 .rv-btn:disabled { opacity: 0.35; cursor: default; }
 
 .rv-btn-play {
-  background: #4078F2;
-  border-color: #4078F2;
-  color: #fff;
+  background: #321E37;
+  border-color: #321E37;
+  color: #50FFEB;
   font-weight: 600;
 }
 
-.rv-btn-play:hover:not(:disabled) { background: #2f63e0; }
+.rv-btn-play:hover:not(:disabled) { background: #4A3550; }
 </style>

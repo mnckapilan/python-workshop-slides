@@ -119,8 +119,8 @@ onUnmounted(() => clearInterval(timer))
   align-items: center;
   gap: 0.75rem;
   padding: 0.65rem 1rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 7px;
   font-family: 'Fira Code', monospace;
   font-size: 1rem;
@@ -130,38 +130,38 @@ onUnmounted(() => clearInterval(timer))
   user-select: none;
 }
 
-.lv-cell:hover { background: #E5E5E6; }
+.lv-cell:hover { background: #D6D2D7; }
 
 .lv-cell.lv-visited {
-  background: #eaf3ea;
-  border-color: #9ecf9d;
-  color: #3a7a39;
+  background: #E6FBF3;
+  border-color: #80D4B0;
+  color: #007A4E;
 }
 
 .lv-cell.lv-active {
-  background: #e8effe;
-  border-color: #4078F2;
-  color: #4078F2;
+  background: #E6F7F5;
+  border-color: #12948A;
+  color: #12948A;
   transform: translateX(6px);
-  box-shadow: 0 2px 10px rgba(64, 120, 242, 0.15);
+  box-shadow: 0 2px 10px rgba(18, 148, 138, 0.15);
 }
 
 .lv-idx {
   font-size: 0.78rem;
   font-weight: 700;
-  color: #A0A1A7;
+  color: #A89DAD;
   width: 1.8rem;
   flex-shrink: 0;
 }
 
-.lv-active .lv-idx { color: #4078F2; }
-.lv-visited .lv-idx { color: #50A14F; }
+.lv-active .lv-idx  { color: #12948A; }
+.lv-visited .lv-idx { color: #00AB6C; }
 
 .lv-val { flex: 1; }
 
 .lv-ptr {
   font-size: 0.85rem;
-  color: #4078F2;
+  color: #12948A;
   animation: lv-blink 0.9s ease-in-out infinite;
 }
 
@@ -174,19 +174,19 @@ onUnmounted(() => clearInterval(timer))
 .lv-output {
   display: flex;
   flex-direction: column;
-  border: 1px solid #D3D3D4;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   overflow: hidden;
-  background: #FAFAFA;
+  background: #F8F5F0;
   font-family: 'Fira Code', monospace;
 }
 
 .lv-output-bar {
   padding: 0.35rem 0.85rem;
-  background: #ECEDEF;
-  border-bottom: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border-bottom: 1px solid #D6D2D7;
   font-size: 0.75rem;
-  color: #696C77;
+  color: #706273;
   letter-spacing: 0.05em;
 }
 
@@ -200,7 +200,7 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .lv-empty {
-  color: #A0A1A7;
+  color: #A89DAD;
   font-size: 0.88rem;
   margin-top: auto;
   margin-bottom: auto;
@@ -209,7 +209,7 @@ onUnmounted(() => clearInterval(timer))
 
 .lv-line {
   font-size: 0.92rem;
-  color: #383A42;
+  color: #321E37;
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
@@ -221,8 +221,8 @@ onUnmounted(() => clearInterval(timer))
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.lv-prompt { color: #50A14F; font-size: 0.8rem; }
-.lv-song   { color: #4078F2; font-weight: 600; }
+.lv-prompt { color: #00AB6C; font-size: 0.8rem; }
+.lv-song   { color: #12948A; font-weight: 600; }
 
 /* ── Controls ── */
 .lv-controls {
@@ -234,25 +234,25 @@ onUnmounted(() => clearInterval(timer))
 
 .lv-btn {
   padding: 0.4rem 1.1rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 6px;
   font-family: 'Fira Code', monospace;
   font-size: 0.88rem;
-  color: #383A42;
+  color: #321E37;
   cursor: pointer;
   transition: background 0.1s;
 }
 
-.lv-btn:hover:not(:disabled) { background: #E5E5E6; }
+.lv-btn:hover:not(:disabled) { background: #D6D2D7; }
 .lv-btn:disabled { opacity: 0.35; cursor: default; }
 
 .lv-btn-play {
-  background: #4078F2;
-  border-color: #4078F2;
-  color: #fff;
+  background: #321E37;
+  border-color: #321E37;
+  color: #50FFEB;
   font-weight: 600;
 }
 
-.lv-btn-play:hover:not(:disabled) { background: #2f63e0; }
+.lv-btn-play:hover:not(:disabled) { background: #4A3550; }
 </style>

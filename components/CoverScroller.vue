@@ -39,16 +39,16 @@ function hlLine(line) {
   rest = cmAt >= 0 ? rest.slice(0, cmAt) : rest
   while (rest.length) {
     let m
-    if ((m = rest.match(/^f?"[^"]*"/)))   { out += sp('#50FA7B', m[0]); rest = rest.slice(m[0].length); continue }
-    if ((m = rest.match(/^\d+\.?\d*/)))    { out += sp('#FFB86C', m[0]); rest = rest.slice(m[0].length); continue }
+    if ((m = rest.match(/^f?"[^"]*"/)))   { out += sp('#50FFEB', m[0]); rest = rest.slice(m[0].length); continue }
+    if ((m = rest.match(/^\d+\.?\d*/)))    { out += sp('#D7A5F0', m[0]); rest = rest.slice(m[0].length); continue }
     if ((m = rest.match(/^[a-zA-Z_]\w*/))) {
       const w = m[0], after = rest.slice(w.length).trimStart()
-      const c = KW.has(w) ? '#BD93F9' : after[0] === '(' ? '#8BE9FD' : '#F0F0F5'
+      const c = KW.has(w) ? '#A7FFF5' : after[0] === '(' ? '#50FFEB' : '#EAE8EB'
       out += sp(c, w); rest = rest.slice(w.length); continue
     }
     out += esc(rest[0]); rest = rest.slice(1)
   }
-  if (cm) out += sp('#A0B0D0', cm)
+  if (cm) out += sp('#9B90A0', cm)
   return out
 }
 
@@ -131,7 +131,7 @@ onUnmounted(() => { clearInterval(clockTimer) })
   font-family: 'Fira Code', monospace !important;
   font-size: 0.78rem !important;
   line-height: 1.85 !important;
-  color: #F0F0F5 !important;
+  color: #EAE8EB !important;
   opacity: 0.22;
   white-space: pre-wrap !important;
   display: block !important;

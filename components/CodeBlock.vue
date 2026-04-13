@@ -48,7 +48,7 @@ async function render() {
     tokenLines.value = props.code
       .trim()
       .split("\n")
-      .map((line) => [{ content: line, color: "#383A42" }]);
+      .map((line) => [{ content: line, color: "#321E37" }]);
   }
   ready.value = true;
 }
@@ -127,11 +127,11 @@ const displayName = computed(
 <style scoped>
 /* ── Shell ───────────────────────────────────────────────────────────────── */
 .ce {
-  border: 1px solid #d3d3d4;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   overflow: hidden;
   font-family: "Fira Code", monospace;
-  background: #fafafa;
+  background: #F8F5F0;
   font-size: 0.88rem;
   line-height: 1.62;
 }
@@ -141,8 +141,8 @@ const displayName = computed(
   display: flex;
   align-items: center;
   padding: 0.38rem 0.85rem;
-  background: #ecedef;
-  border-bottom: 1px solid #d3d3d4;
+  background: #EAE8EB;
+  border-bottom: 1px solid #D6D2D7;
   gap: 0.7rem;
   min-height: 2rem;
 }
@@ -150,7 +150,7 @@ const displayName = computed(
 .ce-filename {
   flex: 1;
   font-size: 0.78rem;
-  color: #696c77;
+  color: #706273;
   font-weight: 500;
   letter-spacing: 0.01em;
   user-select: none;
@@ -160,9 +160,9 @@ const displayName = computed(
 .ce-clear-placeholder {
   font-family: "Fira Code", monospace;
   font-size: 0.72rem;
-  color: #696c77;
+  color: #706273;
   background: none;
-  border: 1px solid #d3d3d4;
+  border: 1px solid #D6D2D7;
   border-radius: 3px;
   padding: 0.08rem 0.5rem;
   cursor: pointer;
@@ -172,7 +172,7 @@ const displayName = computed(
 }
 
 .ce-clear:hover {
-  background: #d3d3d4;
+  background: #D6D2D7;
 }
 
 .ce-clear-placeholder {
@@ -196,15 +196,15 @@ const displayName = computed(
 }
 
 .ce-line:hover {
-  background: rgba(64, 120, 242, 0.05);
+  background: rgba(18, 148, 138, 0.05);
 }
 
 .ce-hl {
-  background: rgba(64, 120, 242, 0.1) !important;
+  background: rgba(18, 148, 138, 0.1) !important;
 }
 
 .ce-hl .ce-ln {
-  color: #4078f2 !important;
+  color: #12948A !important;
   font-weight: 700;
 }
 
@@ -213,7 +213,7 @@ const displayName = computed(
   width: 1.8rem;
   text-align: right;
   flex-shrink: 0;
-  color: #a0a1a7;
+  color: #A89DAD;
   font-size: 0.78rem;
   margin-right: 1.3rem;
   user-select: none;
@@ -227,28 +227,28 @@ const displayName = computed(
 
 /* ── Variants ────────────────────────────────────────────────────────────── */
 .ce-danger {
-  border-color: #f5a5a5;
+  border-color: #F5ADAB;
 }
 .ce-danger .ce-bar {
-  background: #fff0f0;
-  border-bottom-color: #f5a5a5;
+  background: #FFF0EE;
+  border-bottom-color: #F5ADAB;
 }
-.ce-danger .ce-filename { color: #c0392b; }
+.ce-danger .ce-filename { color: #DE352D; }
 
 .ce-success {
-  border-color: #9ecf9d;
+  border-color: #80D4B0;
 }
 .ce-success .ce-bar {
-  background: #f0fff4;
-  border-bottom-color: #9ecf9d;
+  background: #E6FBF3;
+  border-bottom-color: #80D4B0;
 }
-.ce-success .ce-filename { color: #276749; }
+.ce-success .ce-filename { color: #007A4E; }
 
 /* ── Loading ─────────────────────────────────────────────────────────────── */
 .ce-loading {
   padding: 1.4rem;
   text-align: center;
-  color: #a0a1a7;
+  color: #A89DAD;
   font-size: 1.1rem;
   letter-spacing: 0.3em;
 }

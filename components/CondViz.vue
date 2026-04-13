@@ -12,18 +12,18 @@ const branch = computed(() => {
 const branches = computed(() => [
   {
     label: 'if',   check: 'bpm > 150', threshold: 150,
-    result: '"High energy!"',    color: '#E53E3E', bg: '#fff5f5', border: '#feb2b2',
+    result: '"High energy!"',    color: '#DE352D', bg: '#FFF0EE', border: '#F5ADAB',
     passes: bpm.value > 150,
   },
   {
     label: 'elif', check: 'bpm > 100', threshold: 100,
-    result: '"Mid-tempo"',        color: '#4078F2', bg: '#e8effe', border: '#b8ccfb',
+    result: '"Mid-tempo"',        color: '#12948A', bg: '#E6F7F5', border: '#A7FFF5',
     passes: bpm.value > 100,
     skipped: bpm.value > 150,
   },
   {
     label: 'else', check: null,
-    result: '"Slow and relaxed"', color: '#50A14F', bg: '#eaf3ea', border: '#9ecf9d',
+    result: '"Slow and relaxed"', color: '#00AB6C', bg: '#E6FBF3', border: '#80D4B0',
     passes: bpm.value <= 100,
     skipped: bpm.value > 100,
   },
@@ -113,18 +113,18 @@ const presets = [
 .cv-code {
   font-family: 'Fira Code', monospace;
   font-size: 1.05rem;
-  color: #696C77;
+  color: #706273;
 }
 
 .cv-bpm-display {
   font-family: 'Fira Code', monospace;
   font-size: 2rem;
   font-weight: 700;
-  color: #383A42;
+  color: #321E37;
   min-width: 3.5rem;
   text-align: center;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   padding: 0.1rem 0.7rem;
 }
@@ -135,7 +135,7 @@ const presets = [
   width: 180px;
   height: 5px;
   border-radius: 3px;
-  background: #D3D3D4;
+  background: #D6D2D7;
   outline: none;
   cursor: pointer;
 }
@@ -146,9 +146,9 @@ const presets = [
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #4078F2;
+  background: #12948A;
   cursor: pointer;
-  box-shadow: 0 1px 4px rgba(64,120,242,0.35);
+  box-shadow: 0 1px 4px rgba(18, 148, 138, 0.35);
 }
 
 /* ── Presets ── */
@@ -160,22 +160,22 @@ const presets = [
 
 .cv-preset {
   padding: 0.3rem 0.75rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 5px;
   font-family: 'Fira Code', monospace;
   font-size: 0.78rem;
-  color: #696C77;
+  color: #706273;
   cursor: pointer;
   transition: background 0.1s, border-color 0.1s;
 }
 
-.cv-preset:hover { background: #E5E5E6; }
+.cv-preset:hover { background: #D6D2D7; }
 
 .cv-preset-active {
-  background: #e8effe;
-  border-color: #4078F2;
-  color: #4078F2;
+  background: #E6F7F5;
+  border-color: #12948A;
+  color: #12948A;
 }
 
 .cv-preset-bpm {
@@ -195,11 +195,11 @@ const presets = [
   align-items: center;
   gap: 0.9rem;
   padding: 0.75rem 1.2rem;
-  border: 1px solid #D3D3D4;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   font-family: 'Fira Code', monospace;
   font-size: 1rem;
-  background: #F0F0F1;
+  background: #EAE8EB;
   transition: background 0.2s, border-color 0.2s, transform 0.2s, opacity 0.2s;
 }
 
@@ -214,28 +214,28 @@ const presets = [
 
 .cv-kw {
   font-weight: 700;
-  color: #A626A4;
+  color: #706273;
   min-width: 2.5rem;
   transition: color 0.2s;
 }
 
 .cv-check {
-  color: #696C77;
+  color: #706273;
   flex-shrink: 0;
 }
 
 .cv-condition {
   font-family: 'Fira Code', monospace;
   font-size: 0.95rem;
-  color: #A0A1A7;
-  background: #E5E5E6;
+  color: #A89DAD;
+  background: #EAE8EB;
   border-radius: 5px;
   padding: 0.15rem 0.6rem;
   transition: background 0.2s, color 0.2s;
 }
 
 .cv-condition-active .cv-sub {
-  color: #383A42;
+  color: #321E37;
   font-weight: 700;
 }
 
@@ -254,19 +254,19 @@ const presets = [
   transition: all 0.2s;
 }
 
-.cv-badge-true  { background: #eaf3ea; color: #50A14F; border: 1px solid #9ecf9d; }
-.cv-badge-false { background: #fff0f0; color: #c0392b; border: 1px solid #f5b7b1; }
-.cv-badge-skip  { background: #F0F0F1; color: #A0A1A7; border: 1px solid #D3D3D4; }
+.cv-badge-true  { background: #E6FBF3; color: #00AB6C; border: 1px solid #80D4B0; }
+.cv-badge-false { background: #FFF0EE; color: #DE352D; border: 1px solid #F5ADAB; }
+.cv-badge-skip  { background: #EAE8EB; color: #A89DAD; border: 1px solid #D6D2D7; }
 
 .cv-arr {
-  color: #D3D3D4;
+  color: #D6D2D7;
   font-size: 1.1rem;
   transition: color 0.2s;
 }
 
 .cv-result {
   font-weight: 600;
-  color: #A0A1A7;
+  color: #A89DAD;
   transition: color 0.2s;
 }
 

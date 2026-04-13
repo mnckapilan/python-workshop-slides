@@ -126,8 +126,8 @@ onUnmounted(() => clearInterval(timer))
   align-items: center;
   gap: 0.75rem;
   padding: 0.55rem 0.9rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 7px;
   font-family: 'Fira Code', monospace;
   font-size: 0.92rem;
@@ -136,15 +136,15 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .ev-row-active {
-  background: #e8effe;
-  border-color: #4078F2;
+  background: #E6F7F5;
+  border-color: #12948A;
   transform: translateX(6px);
-  box-shadow: 0 2px 10px rgba(64,120,242,0.15);
+  box-shadow: 0 2px 10px rgba(18, 148, 138, 0.15);
 }
 
 .ev-row-visited {
-  background: #eaf3ea;
-  border-color: #9ecf9d;
+  background: #E6FBF3;
+  border-color: #80D4B0;
 }
 
 /* index bubble */
@@ -159,17 +159,17 @@ onUnmounted(() => clearInterval(timer))
   border-radius: 50%;
   font-size: 0.78rem;
   font-weight: 700;
-  background: #D3D3D4;
-  color: #696C77;
+  background: #D6D2D7;
+  color: #706273;
   transition: background 0.2s, color 0.2s;
 }
 
-.ev-idx-active  { background: #4078F2; color: #fff; }
-.ev-idx-visited { background: #50A14F; color: #fff; }
+.ev-idx-active  { background: #12948A; color: #fff; }
+.ev-idx-visited { background: #00AB6C; color: #fff; }
 
-.ev-song { flex: 1; color: #383A42; }
-.ev-row-active .ev-song  { color: #4078F2; font-weight: 600; }
-.ev-row-visited .ev-song { color: #3a7a39; }
+.ev-song { flex: 1; color: #321E37; }
+.ev-row-active  .ev-song { color: #12948A; font-weight: 600; }
+.ev-row-visited .ev-song { color: #007A4E; }
 
 /* unpacked vars */
 .ev-vars {
@@ -181,15 +181,15 @@ onUnmounted(() => clearInterval(timer))
 .ev-var {
   font-size: 0.78rem;
   background: #fff;
-  border: 1px solid #b8ccfb;
+  border: 1px solid #A7FFF5;
   border-radius: 4px;
   padding: 0.1rem 0.45rem;
-  color: #4078F2;
+  color: #12948A;
   white-space: nowrap;
 }
 
-.ev-vk { color: #A626A4; font-weight: 600; }
-.ev-vv { color: #50A14F; }
+.ev-vk { color: #706273; font-weight: 600; }
+.ev-vv { color: #00AB6C; }
 
 .ev-vars-enter-active { transition: opacity 0.2s, transform 0.2s; }
 .ev-vars-enter-from   { opacity: 0; transform: translateX(8px); }
@@ -198,19 +198,19 @@ onUnmounted(() => clearInterval(timer))
 .ev-output {
   display: flex;
   flex-direction: column;
-  border: 1px solid #D3D3D4;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   overflow: hidden;
-  background: #FAFAFA;
+  background: #F8F5F0;
   font-family: 'Fira Code', monospace;
 }
 
 .ev-output-bar {
   padding: 0.35rem 0.85rem;
-  background: #ECEDEF;
-  border-bottom: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border-bottom: 1px solid #D6D2D7;
   font-size: 0.75rem;
-  color: #696C77;
+  color: #706273;
   letter-spacing: 0.05em;
 }
 
@@ -224,7 +224,7 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .ev-empty {
-  color: #A0A1A7;
+  color: #A89DAD;
   font-size: 0.88rem;
   margin: auto;
   text-align: center;
@@ -238,9 +238,9 @@ onUnmounted(() => clearInterval(timer))
   animation: ev-fadein 0.2s ease-out;
 }
 
-.ev-prompt { color: #50A14F; font-size: 0.8rem; }
-.ev-num    { color: #4078F2; font-weight: 700; min-width: 1.5rem; }
-.ev-title  { color: #383A42; }
+.ev-prompt { color: #00AB6C; font-size: 0.8rem; }
+.ev-num    { color: #12948A; font-weight: 700; min-width: 1.5rem; }
+.ev-title  { color: #321E37; }
 
 @keyframes ev-fadein {
   from { opacity: 0; transform: translateY(3px); }
@@ -256,25 +256,25 @@ onUnmounted(() => clearInterval(timer))
 
 .ev-btn {
   padding: 0.4rem 1.1rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 6px;
   font-family: 'Fira Code', monospace;
   font-size: 0.88rem;
-  color: #383A42;
+  color: #321E37;
   cursor: pointer;
   transition: background 0.1s;
 }
 
-.ev-btn:hover:not(:disabled) { background: #E5E5E6; }
+.ev-btn:hover:not(:disabled) { background: #D6D2D7; }
 .ev-btn:disabled { opacity: 0.35; cursor: default; }
 
 .ev-btn-play {
-  background: #4078F2;
-  border-color: #4078F2;
-  color: #fff;
+  background: #321E37;
+  border-color: #321E37;
+  color: #50FFEB;
   font-weight: 600;
 }
 
-.ev-btn-play:hover:not(:disabled) { background: #2f63e0; }
+.ev-btn-play:hover:not(:disabled) { background: #4A3550; }
 </style>

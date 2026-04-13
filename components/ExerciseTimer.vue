@@ -153,7 +153,7 @@ function drawViz() {
 
   ctx.clearRect(0, 0, W, H)
 
-  const color = done.value ? '#50A14F' : running.value ? '#4078F2' : '#D3D3D4'
+  const color = done.value ? '#00AB6C' : running.value ? '#12948A' : '#D6D2D7'
 
   for (let i = 0; i < BAR_COUNT; i++) {
     barH[i] += (barT[i] - barH[i]) * 0.14
@@ -237,8 +237,8 @@ onUnmounted(() => {
   bottom: 1.6rem;
   right: 2rem;
   width: 172px;
-  background: var(--surface, #F0F0F1);
-  border: 1px solid var(--border, #D3D3D4);
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #D6D2D7);
   border-radius: 10px;
   padding: 0.8rem 1rem 0.75rem;
   display: flex;
@@ -251,14 +251,14 @@ onUnmounted(() => {
   z-index: 10;
 }
 
-.et-run  { border-color: #4078F2; box-shadow: 0 2px 14px rgba(64, 120, 242, 0.18); }
-.et-done { border-color: #50A14F; box-shadow: 0 2px 14px rgba(80, 161, 79, 0.18); }
+.et-run  { border-color: #12948A; box-shadow: 0 2px 14px rgba(18, 148, 138, 0.18); }
+.et-done { border-color: #00AB6C; box-shadow: 0 2px 14px rgba(0, 171, 108, 0.18); }
 
 .et-label {
   font-size: 0.62rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #A0A1A7;
+  color: #A89DAD;
   line-height: 1;
 }
 
@@ -267,14 +267,14 @@ onUnmounted(() => {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #383A42;
+  color: #321E37;
   line-height: 1;
   cursor: pointer;
   transition: color 0.25s;
 }
 
-.et-run  .et-time { color: #4078F2; }
-.et-done .et-time { color: #50A14F; }
+.et-run  .et-time { color: #12948A; }
+.et-done .et-time { color: #00AB6C; }
 
 .et-input {
   font-family: var(--font-mono, 'Fira Code', monospace);
@@ -284,27 +284,27 @@ onUnmounted(() => {
   width: 100%;
   border: none;
   background: transparent;
-  color: #383A42;
+  color: #321E37;
   outline: none;
   padding: 0;
 }
 
 .et-track {
   height: 3px;
-  background: #D3D3D4;
+  background: #D6D2D7;
   border-radius: 2px;
   overflow: hidden;
 }
 
 .et-fill {
   height: 100%;
-  background: #4078F2;
+  background: #12948A;
   border-radius: 2px;
   transition: width 1s linear, background 0.3s;
 }
 
 .et-done .et-fill {
-  background: #50A14F;
+  background: #00AB6C;
   width: 100% !important;
   transition: background 0.3s;
 }
@@ -327,18 +327,18 @@ onUnmounted(() => {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #D3D3D4;
+  background: #D6D2D7;
   flex-shrink: 0;
   transition: background 0.3s;
 }
 
 .et-run .et-np-dot {
-  background: #4078F2;
+  background: #12948A;
   animation: et-pulse 1.4s ease-in-out infinite;
 }
 
 .et-done .et-np-dot {
-  background: #50A14F;
+  background: #00AB6C;
 }
 
 @keyframes et-pulse {
@@ -348,13 +348,13 @@ onUnmounted(() => {
 
 .et-np-name {
   font-size: 0.68rem;
-  color: #696C77;
+  color: #706273;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.et-run .et-np-name { color: #383A42; }
+.et-run .et-np-name { color: #321E37; }
 
 /* ── Controls ── */
 .et-controls {
@@ -364,17 +364,17 @@ onUnmounted(() => {
 
 .et-btn {
   padding: 0.28rem 0;
-  background: #FAFAFA;
-  border: 1px solid #D3D3D4;
+  background: #F8F5F0;
+  border: 1px solid #D6D2D7;
   border-radius: 5px;
   cursor: pointer;
-  color: #383A42;
+  color: #321E37;
   font-size: 0.85rem;
   line-height: 1.4;
   transition: background 0.1s;
 }
 
-.et-btn:hover:not(:disabled) { background: #E5E5E6; }
+.et-btn:hover:not(:disabled) { background: #D6D2D7; }
 .et-btn:disabled { opacity: 0.35; cursor: default; }
 
 .et-play  { flex: 1; }

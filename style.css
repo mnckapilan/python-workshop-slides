@@ -24,8 +24,6 @@
   --font-mono: 'Fira Code', monospace;
 }
 
-/* ── Hide goto dialog ───────────────────────────────────── */
-#slidev-goto-dialog { display: none !important; }
 
 /* ── Base slide ─────────────────────────────────────────── */
 .slidev-layout {

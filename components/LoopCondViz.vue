@@ -159,7 +159,7 @@ onUnmounted(() => clearInterval(timer))
 
 /* ── Shared label row — same style in every column ── */
 .lcv-label {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.72rem;
   color: #706273;
   letter-spacing: 0.06em;
@@ -187,7 +187,7 @@ onUnmounted(() => clearInterval(timer))
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 7px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.85rem;
   transition: background 0.2s, border-color 0.2s, transform 0.15s;
 }
@@ -218,7 +218,7 @@ onUnmounted(() => clearInterval(timer))
 /* i=N pill */
 .lcv-ivar {
   flex-shrink: 0;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.73rem;
   background: #fff;
   border: 1px solid #A7FFF5;
@@ -242,7 +242,7 @@ onUnmounted(() => clearInterval(timer))
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 8px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.85rem;
   transition: background 0.2s, border-color 0.2s, transform 0.2s, opacity 0.2s;
 }
@@ -316,7 +316,7 @@ onUnmounted(() => clearInterval(timer))
 
 .lcv-line {
   display: flex; align-items: baseline; gap: 0.4rem;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.85rem;
   animation: lcv-fadein 0.25s ease-out;
 }
@@ -332,7 +332,7 @@ onUnmounted(() => clearInterval(timer))
 .lcv-btn {
   padding: 0.4rem 1.1rem;
   background: #EAE8EB; border: 1px solid #D6D2D7; border-radius: 6px;
-  font-family: 'Fira Code', monospace; font-size: 0.88rem; color: #321E37;
+  font-family: 'Roboto Mono', monospace; font-size: 0.88rem; color: #321E37;
   cursor: pointer; transition: background 0.1s;
 }
 .lcv-btn:hover:not(:disabled) { background: #D6D2D7; }

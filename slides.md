@@ -9,11 +9,7 @@ class: intro-cover
 shiki:
   theme: "github-light"
 fonts:
-  sans: "Figtree"
-  serif: "Bricolage Grotesque"
-  mono: "Fira Code"
-  weights: "400,500,600,700,800"
-  provider: "google"
+  provider: "none"
 ---
 
 <div class="ic">

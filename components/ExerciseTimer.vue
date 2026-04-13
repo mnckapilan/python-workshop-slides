@@ -244,7 +244,7 @@ onUnmounted(() => {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  font-family: var(--font-mono, 'Fira Code', monospace);
+  font-family: var(--font-mono, 'Roboto Mono', monospace);
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.09);
   transition: border-color 0.25s, box-shadow 0.25s;
   user-select: none;
@@ -255,11 +255,13 @@ onUnmounted(() => {
 .et-done { border-color: #00AB6C; box-shadow: 0 2px 14px rgba(0, 171, 108, 0.18); }
 
 .et-label {
+  font-family: 'CoFo Sans Semi-Mono', monospace;
+  font-weight: 500;
   font-size: 0.62rem;
-  letter-spacing: 0.14em;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   text-transform: uppercase;
   color: #A89DAD;
-  line-height: 1;
 }
 
 .et-time {
@@ -277,7 +279,7 @@ onUnmounted(() => {
 .et-done .et-time { color: #00AB6C; }
 
 .et-input {
-  font-family: var(--font-mono, 'Fira Code', monospace);
+  font-family: var(--font-mono, 'Roboto Mono', monospace);
   font-size: 1.95rem;
   font-weight: 700;
   text-align: center;

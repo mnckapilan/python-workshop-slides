@@ -128,7 +128,7 @@ onUnmounted(() => { clearInterval(clockTimer) })
 
 /* !important needed to beat Slidev's own .slidev-layout pre rules */
 .cs-pre {
-  font-family: 'Fira Code', monospace !important;
+  font-family: 'Roboto Mono', monospace !important;
   font-size: 0.78rem !important;
   line-height: 1.85 !important;
   color: #EAE8EB !important;

@@ -799,7 +799,7 @@ Longest average song:
 
 <div class="et-help">✋ Stuck? Each task has hints inside the file — read them carefully!<br>⏭️ Done? Try the extension challenges at the bottom of the file.</div>
 
-<FileHint file="challenge.py" active />
+<FileHint file="exercise_08_challenge.py" active />
 
 <ExerciseTimer />
 
@@ -807,9 +807,9 @@ Longest average song:
 layout: center
 ---
 
-# You've made it through all 7 exercises!
+# Thank you!
 
-**You now know the core building blocks of Python:**
+**Today we covered:**
 
 <div class="concepts">
   <span>variables</span>

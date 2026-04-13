@@ -150,7 +150,7 @@ A variable is a **labelled box** that stores a piece of information.
 const code = `song_title = "Blinding Lights"
 artist     = "The Weeknd"
 year       = 2019
-duration   = 3.22   # minutes
+duration   = 202   # seconds
 
 print(song_title)   # Blinding Lights
 print(artist)       # The Weeknd
@@ -183,7 +183,7 @@ Slot variables directly into text — put `f` before the quote and `{}` around v
 2. Use an f-string to print:
 
 ```
-Now Playing: <title> by <artist> | Released: <year> | Duration: <duration> mins
+Now Playing: <title> by <artist> | Released: <year> | Duration: <duration>s
 ```
 
 <div class="et-help">✋ Stuck? Raise your hand and a volunteer will come to you!<br>⏳ Need more time? Don't worry, we can extend the timer — we are in no rush.</div>
@@ -710,6 +710,54 @@ for i, song in enumerate(lines, start=1):
 <div class="et-help">✋ Stuck? Raise your hand and a volunteer will come to you!<br>⏳ Need more time? Don't worry, we can extend the timer — we are in no rush.</div>
 
 <FileHint file="exercise_07_file_io.py" active />
+
+<ExerciseTimer />
+
+---
+layout: center
+class: exercise-header
+---
+
+# The Challenge
+
+## Song Length Stats
+
+---
+
+# What you're building
+
+Use the 9,000+ real song library to find which artists make the **longest** and **shortest** songs on average.
+
+<script setup>
+const output = `Shortest average song:
+  1.  Ice Spice          125s  (30 songs)
+  2.  Tiger Backwood     140s  (23 songs)
+  3.  Doechii            144s  (48 songs)
+  4.  Summer Walker      152s  (70 songs)
+  5.  PinkPantheress     153s  (93 songs)
+
+Longest average song:
+  1.  Dave Matthews Band  320s  (62 songs)
+  2.  Tame Impala         292s  (119 songs)
+  3.  Michael Jackson     271s  (107 songs)
+  4.  Adele               268s  (63 songs)
+  5.  Kendrick Lamar      264s  (78 songs)`
+</script>
+
+<CodeBlock :code="output" lang="text" filename="your output" />
+
+---
+
+# Your Task — The Challenge
+
+1. **Group** — build a dictionary mapping each artist to a list of their song durations.
+2. **Filter & average** — keep only artists with 20+ songs, compute their average.
+3. **Sort & print** — show the 5 shortest and 5 longest, with durations in seconds.
+4. **Stretch** — write `format_seconds(seconds)` to display `"2m 05s"` instead of `"125s"`.
+
+<div class="et-help">✋ Stuck? Each task has hints inside the file — read them carefully!<br>⏭️ Done? Try the extension challenges at the bottom of the file.</div>
+
+<FileHint file="challenge.py" active />
 
 <ExerciseTimer />
 

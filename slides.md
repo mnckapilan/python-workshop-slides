@@ -275,19 +275,19 @@ A list stores **multiple items in order** — each item has an index starting at
 # Lists — code
 
 <script setup>
-const code = `playlist = ["Blinding Lights", "Levitating", "Stay", "Heat Waves"]
-
-print(playlist)        # the whole list
-print(playlist[0])     # first item  → "Blinding Lights"
-print(playlist[-1])    # last item   → "Heat Waves"
-print(len(playlist))   # how many    → 4
-
-playlist.append("As It Was")     # add to the end
+const setup  = `playlist = ["Blinding Lights", "Levitating", "Stay", "Heat Waves"]`
+const rows   = [
+  { code: `print(playlist)`,     output: `['Blinding Lights', 'Levitating', 'Stay', 'Heat Waves']` },
+  { code: `print(playlist[0])`,  output: `'Blinding Lights'` },
+  { code: `print(playlist[-1])`, output: `'Heat Waves'` },
+  { code: `print(len(playlist))`,output: `4` },
+]
+const footer = `playlist.append("As It Was")     # add to the end
 playlist.remove("Stay")          # remove a specific song
 playlist.insert(0, "Flowers")    # insert at position 0 (the start)`
 </script>
 
-<CodeBlock :code="code" lang="python" filename="lists.py" />
+<RevealBlock filename="lists.py" :setup="setup" :rows="rows" :footer="footer" />
 
 <FileHint file="exercise_02_lists.py" />
 

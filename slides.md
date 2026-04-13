@@ -137,8 +137,8 @@ A browsable, searchable database of **9,000+ real songs** — the same dataset y
 
 <div class="d-row" style="margin: 1.4rem 0; gap: 1rem; flex-wrap: wrap;">
   <span class="d-box">🔍 Search by title or artist</span>
-  <span class="d-box">🎵 Filter by genre or year</span>
-  <span class="d-box">⚡ Sort by BPM, play count, duration</span>
+  <span class="d-box">🎵 Filter by genre</span>
+  <span class="d-box">🃏 Click any card for Python code</span>
 </div>
 
 Open it in Chrome:
@@ -153,11 +153,11 @@ No login, no install — it works straight in your browser.
 
 1. Go to [**tinyurl.com/7tdxxp57**](https://tinyurl.com/7tdxxp57)
 2. Type a song, artist, or genre in the **search box**
-3. Use the **column headers** to sort — click BPM to find the fastest songs
-4. Use the **genre filter** to narrow down results
-5. Copy any values you like into your exercise code
+3. Use the **genre filter** to narrow down results
+4. Click any card to see the exact Python code for that song
+5. Copy the code straight into your exercise
 
-<div class="slide-footer-note"><strong>Tip:</strong> Find a genre you love, sort by play count, and use those songs in your exercises — your code will feel a lot more personal!</div>
+<div class="slide-footer-note"><strong>Tip:</strong> Find a genre you love and browse the cards — then use those songs in your exercises to make the code feel personal!</div>
 
 ---
 layout: center

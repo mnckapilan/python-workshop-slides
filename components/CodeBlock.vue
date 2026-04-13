@@ -225,6 +225,11 @@ const displayName = computed(
   user-select: text;
 }
 
+.ce-code ::selection {
+  background: rgba(18, 148, 138, 0.26);
+  color: inherit;
+}
+
 /* ── Variants ────────────────────────────────────────────────────────────── */
 .ce-danger {
   border-color: #F5ADAB;

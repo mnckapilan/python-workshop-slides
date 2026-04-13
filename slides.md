@@ -109,6 +109,11 @@ In the left panel, open the `exercises` folder and click on **`exercise_00_setup
 
 You'll see some greyed-out lines — those are **comments**. Python ignores them when it runs. They're notes for you to read.
 
+```python
+# This is a comment — Python skips it completely
+print("But this line runs!")   # you can comment after code too
+```
+
 Your task: find the commented-out `print(...)` line at the bottom and **uncomment it**:
 - Delete the `#` at the start of the line, or
 - Click on the line and press **Cmd+/** (Mac) · **Ctrl+/** (Windows)

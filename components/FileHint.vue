@@ -50,7 +50,6 @@ defineProps({
   font-size: 0.88rem;
   font-weight: 600;
   color: #50FFEB;
-  box-shadow: 0 2px 10px rgba(50, 30, 55, 0.35);
 }
 
 .fh-active .fh-icon { font-size: 0.82rem; }

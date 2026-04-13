@@ -47,8 +47,11 @@ defineProps({
   background: #321E37;
   border: none;
   border-radius: 99px;
+  font-family: 'CoFo Sans Semi-Mono', monospace;
   font-size: 0.88rem;
-  font-weight: 600;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   color: #50FFEB;
 }
 

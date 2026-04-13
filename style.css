@@ -1,4 +1,25 @@
 /* ============================================================
+   Starling brand fonts (self-hosted from starlingbank.com)
+   ============================================================ */
+
+@font-face {
+  font-family: 'Avantt';
+  src: url('/fonts/AvanttVF.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CoFo Sans Semi-Mono';
+  src: url('/fonts/CoFoSansSemi-Mono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* ============================================================
    Python Music Workshop — Starling Bank brand palette (2025)
    bg #F8F5F0 · surface #ffffff · text #321E37
    teal #0A6B64 · cyan #0A5750 · green #00AB6C
@@ -19,9 +40,10 @@
   --orange:   #C49AC8;  /* warm lilac-pink */
   --border:   #D6D2D7;  /* starlingPurpleTint20 */
 
-  --font-head: 'Bricolage Grotesque', sans-serif;
-  --font-body: 'Figtree', sans-serif;
+  --font-head: 'Avantt', sans-serif;
+  --font-body: 'Avantt', sans-serif;
   --font-mono: 'Fira Code', monospace;
+  --font-cta:  'CoFo Sans Semi-Mono', monospace;
 }
 
 
@@ -31,17 +53,18 @@
   color: var(--text);
   font-family: var(--font-body);
   font-size: 1.125rem;
-  line-height: 1.65;
+  line-height: 1.25;
+  letter-spacing: 0em;
 }
 
 /* ── Headings ───────────────────────────────────────────── */
 .slidev-layout h1 {
   font-family: var(--font-head);
-  font-weight: 800;
+  font-weight: 600;
   font-size: 2.8rem;
-  line-height: 1.15;
+  line-height: 0.95;
   color: var(--text);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.03em;
   margin-bottom: 1.2rem;
 }
 
@@ -49,8 +72,9 @@
   font-family: var(--font-head);
   font-weight: 600;
   font-size: 1.6rem;
+  line-height: 1.1;
   color: var(--muted);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.03em;
   margin-bottom: 0.6rem;
 }
 
@@ -66,8 +90,8 @@
 
 .slidev-layout.cover h1 {
   font-size: 3.4rem;
-  font-weight: 800;
-  line-height: 1.05;
+  font-weight: 600;
+  line-height: 0.95;
   max-width: 14ch;
 }
 
@@ -109,9 +133,11 @@
 }
 
 .ic-label {
-  font-family: var(--font-mono);
+  font-family: var(--font-cta);
   font-size: 0.78rem;
-  letter-spacing: 0.2em;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   text-transform: uppercase;
   color: #50FFEB;  /* bright teal pops on dark purple bg */
   margin: 0 0 1.5rem;
@@ -120,8 +146,8 @@
 .slidev-layout.intro-cover h1 {
   font-family: var(--font-head);
   font-size: 4.1rem;
-  font-weight: 800;
-  line-height: 1.0;
+  font-weight: 600;
+  line-height: 0.95;
   color: #F8F5F0;
   letter-spacing: -0.03em;
   margin: 0;
@@ -150,10 +176,12 @@
 }
 
 .slidev-layout.exercise-header h1 {
+  font-family: var(--font-cta);
   color: var(--bg);
   font-size: 1.1rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
   text-transform: uppercase;
   opacity: 0.5;
   margin-bottom: 1.4rem;
@@ -162,8 +190,9 @@
 .slidev-layout.exercise-header h2 {
   color: var(--bg);
   font-size: 3.5rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
   opacity: 1;
 }
 
@@ -614,11 +643,12 @@
   background: #321E37;
   color: #50FFEB;
   border-radius: 8px;
-  font-family: var(--font-body);
+  font-family: var(--font-cta);
   font-size: 0.95rem;
-  font-weight: 600;
+  font-weight: 500;
   text-decoration: none;
-  letter-spacing: 0.01em;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
 }
 
 .slides-download:hover {

@@ -2,9 +2,9 @@
 import { ref } from 'vue'
 
 const vars = [
-  { name: 'song_title', value: '"Blinding Lights"', display: 'Blinding Lights', color: '#4078F2', bg: '#e8effe' },
-  { name: 'artist',     value: '"The Weeknd"',      display: 'The Weeknd',       color: '#A626A4', bg: '#f5eafe' },
-  { name: 'year',       value: '2019',              display: '2019',             color: '#986801', bg: '#fdf3e3' },
+  { name: 'song_title', value: '"Blinding Lights"', display: 'Blinding Lights', color: '#0A6B64', bg: '#E6F7F5' },
+  { name: 'artist',     value: '"The Weeknd"',      display: 'The Weeknd',       color: '#706273', bg: '#EAE8EB' },
+  { name: 'year',       value: '2019',              display: '2019',             color: '#00AB6C', bg: '#E6FBF3' },
 ]
 
 const parts = [
@@ -133,8 +133,8 @@ function reset() {
 }
 
 .fv-var-name { font-weight: 700; }
-.fv-var-eq   { color: #A0A1A7; }
-.fv-var-val  { color: #383A42; }
+.fv-var-eq   { color: #A89DAD; }
+.fv-var-val  { color: #321E37; }
 
 /* ── Template ── */
 .fv-template {
@@ -143,17 +143,17 @@ function reset() {
   flex-wrap: wrap;
   gap: 0;
   padding: 0.65rem 1rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   font-family: 'Fira Code', monospace;
   font-size: 1rem;
   line-height: 1.9;
 }
 
-.fv-kw    { color: #4078F2; font-weight: 700; margin-right: 1px; }
-.fv-quote { color: #50A14F; }
-.fv-lit   { color: #50A14F; }
+.fv-kw    { color: #0A6B64; font-weight: 700; margin-right: 1px; }
+.fv-quote { color: #00AB6C; }
+.fv-lit   { color: #00AB6C; }
 
 .fv-slot {
   display: inline-flex;
@@ -180,22 +180,22 @@ function reset() {
 
 /* ── Output ── */
 .fv-output {
-  border: 1px solid #D3D3D4;
+  border: 1px solid #D6D2D7;
   border-radius: 8px;
   overflow: hidden;
-  background: #FAFAFA;
+  background: #F8F5F0;
   font-family: 'Fira Code', monospace;
   transition: border-color 0.35s;
 }
 
-.fv-output-ready { border-color: #50A14F; }
+.fv-output-ready { border-color: #00AB6C; }
 
 .fv-out-bar {
   padding: 0.28rem 0.85rem;
-  background: #ECEDEF;
-  border-bottom: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border-bottom: 1px solid #D6D2D7;
   font-size: 0.72rem;
-  color: #696C77;
+  color: #706273;
   letter-spacing: 0.05em;
 }
 
@@ -207,13 +207,13 @@ function reset() {
 }
 
 .fv-hint {
-  color: #A0A1A7;
+  color: #A89DAD;
   font-size: 0.85rem;
 }
 
 .fv-result {
   font-size: 0.92rem;
-  color: #383A42;
+  color: #321E37;
   animation: fv-fadein 0.35s ease-out;
 }
 
@@ -222,32 +222,32 @@ function reset() {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.fv-prompt { color: #50A14F; margin-right: 0.5rem; }
+.fv-prompt { color: #00AB6C; margin-right: 0.5rem; }
 
 /* ── Controls ── */
 .fv-controls { display: flex; }
 
 .fv-btn {
   padding: 0.38rem 1.2rem;
-  background: #F0F0F1;
-  border: 1px solid #D3D3D4;
+  background: #EAE8EB;
+  border: 1px solid #D6D2D7;
   border-radius: 6px;
   font-family: 'Fira Code', monospace;
   font-size: 0.88rem;
-  color: #383A42;
+  color: #321E37;
   cursor: pointer;
   transition: background 0.1s;
 }
 
-.fv-btn:hover:not(:disabled) { background: #E5E5E6; }
+.fv-btn:hover:not(:disabled) { background: #D6D2D7; }
 .fv-btn:disabled { opacity: 0.35; cursor: default; }
 
 .fv-btn-eval {
-  background: #4078F2;
-  border-color: #4078F2;
-  color: #fff;
+  background: #321E37;
+  border-color: #321E37;
+  color: #50FFEB;
   font-weight: 600;
 }
 
-.fv-btn-eval:hover:not(:disabled) { background: #2f63e0; }
+.fv-btn-eval:hover:not(:disabled) { background: #4A3550; }
 </style>

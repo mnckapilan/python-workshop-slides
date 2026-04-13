@@ -30,11 +30,11 @@ defineProps({
   left: 50%;
   transform: translateX(-50%);
   padding: 0.28rem 0.85rem;
-  background: var(--surface, #F0F0F1);
-  border: 1px solid var(--border, #D3D3D4);
+  background: var(--surface, #ffffff);
+  border: 1px solid var(--border, #D6D2D7);
   border-radius: 99px;
   font-size: 0.78rem;
-  color: var(--muted, #696C77);
+  color: var(--muted, #706273);
 }
 
 .fh-default .fh-icon { font-size: 0.72rem; }
@@ -44,13 +44,13 @@ defineProps({
   top: 1.5rem;
   right: 2rem;
   padding: 0.38rem 1rem 0.38rem 0.8rem;
-  background: #4078F2;
+  background: #321E37;
   border: none;
   border-radius: 99px;
   font-size: 0.88rem;
   font-weight: 600;
-  color: #fff;
-  box-shadow: 0 2px 10px rgba(64, 120, 242, 0.35);
+  color: #50FFEB;
+  box-shadow: 0 2px 10px rgba(50, 30, 55, 0.35);
 }
 
 .fh-active .fh-icon { font-size: 0.82rem; }

@@ -107,13 +107,17 @@ class: exercise-header
 
 In the left panel, open the `exercises` folder and click on **`exercise_00_setup_check.py`**.
 
-Click the **Run** button. You should see:
+You'll see some greyed-out lines — those are **comments**. Python ignores them when it runs. They're notes for you to read.
+
+Your task: find the commented-out `print(...)` line at the bottom and **uncomment it**:
+- Delete the `#` at the start of the line, or
+- Click on the line and press **Cmd+/** (Mac) · **Ctrl+/** (Windows)
+
+Then click **Run**. You should see:
 
 ```
 Everything is set up correctly — you're ready to go!
 ```
-
-You're done! Start on Exercise 1.
 
 <FileHint file="exercise_00_setup_check.py" />
 
@@ -154,7 +158,10 @@ duration   = 202   # seconds
 
 print(song_title)   # Blinding Lights
 print(artist)       # The Weeknd
-print(year)         # 2019`
+print(year)         # 2019
+
+print(f"Now Playing: {song_title} by {artist} | Released: {year} | Duration: {duration}s")
+# Now Playing: Blinding Lights by The Weeknd | Released: 2019 | Duration: 202s`
 </script>
 
 <CodeBlock :code="code" lang="python" filename="variables.py" />
@@ -497,10 +504,13 @@ const code = `album = {
 }
 
 print(album["title"])       # Future Nostalgia
-print(album["tracks"][2])   # Don't Start Now
+print(album["tracks"][3])   # Cool
 
 for track_num, track_title in album["tracks"].items():
-    print(f"Track {track_num}: {track_title}")`
+    print(f"Track {track_num}: {track_title}")
+
+album["label"] = "Warner Records"   # add a new key after creation
+print(album["label"])               # Warner Records`
 </script>
 
 <CodeBlock :code="code" lang="python" filename="dictionaries.py" />
@@ -654,7 +664,7 @@ So far, data disappears when the program stops. A file keeps it around.
   <div class="d-box d-val">my_playlist.txt</div>
 </div>
 
-> `"w"` write · `"r"` read · `"a"` append
+> `"w"` write · `"r"` read
 
 <FileHint file="exercise_07_file_io.py" />
 

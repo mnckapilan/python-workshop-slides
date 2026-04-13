@@ -15,9 +15,8 @@ fonts:
 
 <div class="ic">
   <div class="ic-left">
-    <p class="ic-label">Python · Music · Code</p>
     <h1>Getting Started<br>with Python</h1>
-    <p class="ic-sub">A coding workshop</p>
+    <p class="ic-sub">We're from Starling Bank</p>
   </div>
   <CoverScroller />
 </div>

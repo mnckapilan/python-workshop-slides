@@ -77,7 +77,6 @@ workshop = {
 }
 
 print(f"Welcome to {workshop['title']}!")
-print(f"Today's session is {workshop['duration']} long.")
 print("No experience needed — let's go!")
 
 import coffee

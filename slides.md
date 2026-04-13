@@ -53,10 +53,8 @@ Over the next **2 hours** you'll learn the core building blocks of Python — us
 <div class="slide-footer-note"><strong>Finished early?</strong> Scroll to the <strong>Extension Challenge</strong> at the bottom of your exercise file — or open the <strong>Data Explorer</strong> to browse 9,000+ real songs.</div>
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 0
@@ -94,7 +92,7 @@ class: exercise-header
 
 # Step 2 — Open the workshop in Saarai
 
-1. Go to **saarai.dev** in your browser
+1. Open <img src="https://api.iconify.design/logos:chrome.svg" width="18" height="18" style="vertical-align:middle;display:inline-block;flex-shrink:0" /> **Chrome** and go to **saarai.dev**
 2. Click **File → Open Folder**
 3. Find your workshop folder (e.g. on the Desktop) → select it → click **Open**
 4. You'll see the `exercises` folder appear in the left panel
@@ -120,10 +118,8 @@ You're done! Start on Exercise 1.
 <FileHint file="exercise_00_setup_check.py" />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 1
@@ -197,10 +193,8 @@ Now Playing: <title> by <artist> | Released: <year> | Duration: <duration> mins
 <ExerciseTimer />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 2
@@ -266,10 +260,8 @@ playlist.insert(0, "Flowers")    # insert at position 0 (the start)`
 <ExerciseTimer />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 3
@@ -378,10 +370,8 @@ for i, song in enumerate(playlist, start=1):
 <ExerciseTimer />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 4
@@ -465,10 +455,8 @@ For each song the loop picks up its BPM, then the `if` decides which branch runs
 <ExerciseTimer />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 5
@@ -537,10 +525,8 @@ for track_num, track_title in album["tracks"].items():
 <ExerciseTimer />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 6
@@ -645,10 +631,8 @@ Longest title: Someone Like You (16 characters)
 <ExerciseTimer />
 
 ---
-
 layout: center
 class: exercise-header
-
 ---
 
 # Exercise 7
@@ -730,8 +714,8 @@ for i, song in enumerate(lines, start=1):
 <ExerciseTimer />
 
 ---
-
-## layout: center
+layout: center
+---
 
 # You've made it through all 7 exercises!
 
@@ -748,8 +732,8 @@ for i, song in enumerate(lines, start=1):
 </div>
 
 ---
-
-## layout: center
+layout: center
+---
 
 # Want to explore 9,000+ real songs?
 

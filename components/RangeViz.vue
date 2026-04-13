@@ -118,7 +118,7 @@ onUnmounted(() => clearInterval(timer))
   border: 1px solid #D6D2D7;
   border-radius: 4px;
   padding: 0.05rem 0.4rem;
-  color: #12948A;
+  color: #0A6B64;
 }
 
 .rv-boxes {
@@ -143,8 +143,8 @@ onUnmounted(() => clearInterval(timer))
 
 .rv-box-active {
   background: #E6F7F5;
-  border-color: #12948A;
-  color: #12948A;
+  border-color: #0A6B64;
+  color: #0A6B64;
   transform: translateY(-4px);
   box-shadow: 0 3px 10px rgba(18, 148, 138, 0.18);
 }
@@ -158,7 +158,7 @@ onUnmounted(() => clearInterval(timer))
 .rv-box-i { font-weight: 700; font-size: 0.88rem; }
 
 .rv-box-ptr {
-  color: #12948A;
+  color: #0A6B64;
   font-size: 0.8rem;
   animation: rv-blink 0.8s ease-in-out infinite;
 }

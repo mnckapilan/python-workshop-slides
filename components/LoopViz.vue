@@ -140,8 +140,8 @@ onUnmounted(() => clearInterval(timer))
 
 .lv-cell.lv-active {
   background: #E6F7F5;
-  border-color: #12948A;
-  color: #12948A;
+  border-color: #0A6B64;
+  color: #0A6B64;
   transform: translateX(6px);
   box-shadow: 0 2px 10px rgba(18, 148, 138, 0.15);
 }
@@ -154,14 +154,14 @@ onUnmounted(() => clearInterval(timer))
   flex-shrink: 0;
 }
 
-.lv-active .lv-idx  { color: #12948A; }
+.lv-active .lv-idx  { color: #0A6B64; }
 .lv-visited .lv-idx { color: #00AB6C; }
 
 .lv-val { flex: 1; }
 
 .lv-ptr {
   font-size: 0.85rem;
-  color: #12948A;
+  color: #0A6B64;
   animation: lv-blink 0.9s ease-in-out infinite;
 }
 
@@ -222,7 +222,7 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .lv-prompt { color: #00AB6C; font-size: 0.8rem; }
-.lv-song   { color: #12948A; font-weight: 600; }
+.lv-song   { color: #0A6B64; font-weight: 600; }
 
 /* ── Controls ── */
 .lv-controls {

@@ -17,7 +17,7 @@ const branches = computed(() => [
   },
   {
     label: 'elif', check: 'bpm > 100', threshold: 100,
-    result: '"Mid-tempo"',        color: '#12948A', bg: '#E6F7F5', border: '#A7FFF5',
+    result: '"Mid-tempo"',        color: '#0A6B64', bg: '#E6F7F5', border: '#A7FFF5',
     passes: bpm.value > 100,
     skipped: bpm.value > 150,
   },
@@ -146,7 +146,7 @@ const presets = [
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #12948A;
+  background: #0A6B64;
   cursor: pointer;
   box-shadow: 0 1px 4px rgba(18, 148, 138, 0.35);
 }
@@ -174,8 +174,8 @@ const presets = [
 
 .cv-preset-active {
   background: #E6F7F5;
-  border-color: #12948A;
-  color: #12948A;
+  border-color: #0A6B64;
+  color: #0A6B64;
 }
 
 .cv-preset-bpm {

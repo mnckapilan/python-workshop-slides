@@ -194,25 +194,25 @@ onUnmounted(() => clearInterval(timer))
 
 .lcv-row-bpm { justify-content: center; }
 
-.lcv-row-active  { background: #E6F7F5; border-color: #12948A; box-shadow: 0 2px 8px rgba(18, 148, 138, 0.13); }
+.lcv-row-active  { background: #E6F7F5; border-color: #0A6B64; box-shadow: 0 2px 8px rgba(18, 148, 138, 0.13); }
 .lcv-row-visited { background: #E6FBF3; border-color: #80D4B0; }
 
 /* only title rows nudge right */
 .lcv-col:first-child .lcv-row-active { transform: translateX(4px); }
 
 .lcv-ptr { font-size: 0.7rem; color: transparent; flex-shrink: 0; transition: color 0.15s; }
-.lcv-ptr-on { color: #12948A; }
+.lcv-ptr-on { color: #0A6B64; }
 
 .lcv-title {
   flex: 1; min-width: 0;
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   color: #321E37;
 }
-.lcv-row-active  .lcv-title { color: #12948A; font-weight: 600; }
+.lcv-row-active  .lcv-title { color: #0A6B64; font-weight: 600; }
 .lcv-row-visited .lcv-title { color: #007A4E; }
 
 .lcv-bpm-val { color: #321E37; font-weight: 600; }
-.lcv-row-active  .lcv-bpm-val { color: #12948A; }
+.lcv-row-active  .lcv-bpm-val { color: #0A6B64; }
 .lcv-row-visited .lcv-bpm-val { color: #007A4E; }
 
 /* i=N pill */
@@ -224,7 +224,7 @@ onUnmounted(() => clearInterval(timer))
   border: 1px solid #A7FFF5;
   border-radius: 4px;
   padding: 0.08rem 0.4rem;
-  color: #12948A;
+  color: #0A6B64;
   white-space: nowrap;
 }
 .lcv-ivar-k { color: #706273; font-weight: 700; }
@@ -249,7 +249,7 @@ onUnmounted(() => clearInterval(timer))
 
 .lcv-branch-active {
   background: #E6F7F5;
-  border-color: #12948A;
+  border-color: #0A6B64;
   transform: translateX(5px);
   box-shadow: 0 2px 10px rgba(18, 148, 138, 0.13);
 }
@@ -268,7 +268,7 @@ onUnmounted(() => clearInterval(timer))
   font-weight: 600;
   padding-left: 2.2rem; /* indent under keyword */
 }
-.lcv-branch-active .lcv-branch-result { color: #12948A; }
+.lcv-branch-active .lcv-branch-result { color: #0A6B64; }
 
 .lcv-kw {
   font-weight: 700;
@@ -276,7 +276,7 @@ onUnmounted(() => clearInterval(timer))
   flex-shrink: 0;
   min-width: 2.1rem;
 }
-.lcv-branch-active .lcv-kw { color: #12948A; }
+.lcv-branch-active .lcv-kw { color: #0A6B64; }
 
 .lcv-check {
   font-size: 0.82rem;

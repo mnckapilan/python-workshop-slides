@@ -153,7 +153,7 @@ function drawViz() {
 
   ctx.clearRect(0, 0, W, H)
 
-  const color = done.value ? '#00AB6C' : running.value ? '#12948A' : '#D6D2D7'
+  const color = done.value ? '#00AB6C' : running.value ? '#0A6B64' : '#D6D2D7'
 
   for (let i = 0; i < BAR_COUNT; i++) {
     barH[i] += (barT[i] - barH[i]) * 0.14
@@ -251,7 +251,7 @@ onUnmounted(() => {
   z-index: 10;
 }
 
-.et-run  { border-color: #12948A; box-shadow: 0 2px 14px rgba(18, 148, 138, 0.18); }
+.et-run  { border-color: #0A6B64; box-shadow: 0 2px 14px rgba(18, 148, 138, 0.18); }
 .et-done { border-color: #00AB6C; box-shadow: 0 2px 14px rgba(0, 171, 108, 0.18); }
 
 .et-label {
@@ -273,7 +273,7 @@ onUnmounted(() => {
   transition: color 0.25s;
 }
 
-.et-run  .et-time { color: #12948A; }
+.et-run  .et-time { color: #0A6B64; }
 .et-done .et-time { color: #00AB6C; }
 
 .et-input {
@@ -298,7 +298,7 @@ onUnmounted(() => {
 
 .et-fill {
   height: 100%;
-  background: #12948A;
+  background: #0A6B64;
   border-radius: 2px;
   transition: width 1s linear, background 0.3s;
 }
@@ -333,7 +333,7 @@ onUnmounted(() => {
 }
 
 .et-run .et-np-dot {
-  background: #12948A;
+  background: #0A6B64;
   animation: et-pulse 1.4s ease-in-out infinite;
 }
 

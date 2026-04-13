@@ -137,7 +137,7 @@ onUnmounted(() => clearInterval(timer))
 
 .ev-row-active {
   background: #E6F7F5;
-  border-color: #12948A;
+  border-color: #0A6B64;
   transform: translateX(6px);
   box-shadow: 0 2px 10px rgba(18, 148, 138, 0.15);
 }
@@ -164,11 +164,11 @@ onUnmounted(() => clearInterval(timer))
   transition: background 0.2s, color 0.2s;
 }
 
-.ev-idx-active  { background: #12948A; color: #fff; }
+.ev-idx-active  { background: #0A6B64; color: #fff; }
 .ev-idx-visited { background: #00AB6C; color: #fff; }
 
 .ev-song { flex: 1; color: #321E37; }
-.ev-row-active  .ev-song { color: #12948A; font-weight: 600; }
+.ev-row-active  .ev-song { color: #0A6B64; font-weight: 600; }
 .ev-row-visited .ev-song { color: #007A4E; }
 
 /* unpacked vars */
@@ -184,7 +184,7 @@ onUnmounted(() => clearInterval(timer))
   border: 1px solid #A7FFF5;
   border-radius: 4px;
   padding: 0.1rem 0.45rem;
-  color: #12948A;
+  color: #0A6B64;
   white-space: nowrap;
 }
 
@@ -239,7 +239,7 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .ev-prompt { color: #00AB6C; font-size: 0.8rem; }
-.ev-num    { color: #12948A; font-weight: 700; min-width: 1.5rem; }
+.ev-num    { color: #0A6B64; font-weight: 700; min-width: 1.5rem; }
 .ev-title  { color: #321E37; }
 
 @keyframes ev-fadein {

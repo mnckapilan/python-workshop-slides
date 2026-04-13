@@ -204,7 +204,7 @@ const displayName = computed(
 }
 
 .ce-hl .ce-ln {
-  color: #12948A !important;
+  color: #0A6B64 !important;
   font-weight: 700;
 }
 

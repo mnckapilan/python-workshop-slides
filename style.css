@@ -1,7 +1,7 @@
 /* ============================================================
    Python Music Workshop — Starling Bank brand palette (2025)
    bg #F8F5F0 · surface #ffffff · text #321E37
-   teal #12948A · cyan #24D2BE · green #00AB6C
+   teal #0A6B64 · cyan #0A5750 · green #00AB6C
    muted #706273 · border #D6D2D7
    ============================================================ */
 
@@ -12,8 +12,8 @@
   --text:     #321E37;  /* starlingPurple */
   --muted:    #706273;  /* starlingPurple70 */
   --subtle:   #A89DAD;  /* mid purple-grey */
-  --blue:     #12948A;  /* teal400 – readable on light bg */
-  --cyan:     #24D2BE;  /* tealActive – inline code accent */
+  --blue:     #0A6B64;  /* dark teal – 5.85:1 on offWhite, AA compliant */
+  --cyan:     #0A5750;  /* darker teal – 7.75:1 on offWhite, for inline code */
   --green:    #00AB6C;  /* successGreen */
   --purple:   #D7A5F0;  /* secondaryLiliac */
   --orange:   #C49AC8;  /* warm lilac-pink */

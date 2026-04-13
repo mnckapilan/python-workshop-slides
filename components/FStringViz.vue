@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 const vars = [
-  { name: 'song_title', value: '"Blinding Lights"', display: 'Blinding Lights', color: '#12948A', bg: '#E6F7F5' },
+  { name: 'song_title', value: '"Blinding Lights"', display: 'Blinding Lights', color: '#0A6B64', bg: '#E6F7F5' },
   { name: 'artist',     value: '"The Weeknd"',      display: 'The Weeknd',       color: '#706273', bg: '#EAE8EB' },
   { name: 'year',       value: '2019',              display: '2019',             color: '#00AB6C', bg: '#E6FBF3' },
 ]
@@ -151,7 +151,7 @@ function reset() {
   line-height: 1.9;
 }
 
-.fv-kw    { color: #12948A; font-weight: 700; margin-right: 1px; }
+.fv-kw    { color: #0A6B64; font-weight: 700; margin-right: 1px; }
 .fv-quote { color: #00AB6C; }
 .fv-lit   { color: #00AB6C; }
 

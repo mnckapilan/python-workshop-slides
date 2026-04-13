@@ -10,6 +10,7 @@ shiki:
   theme: "github-light"
 fonts:
   provider: "none"
+  mono: "Roboto Mono"
 ---
 
 <div class="ic">

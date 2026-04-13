@@ -65,7 +65,7 @@ class: exercise-header
 
 # Step 1 — Get the workshop folder
 
-<div class="setup-step">Go to <strong>tinyurl.com/python-walthamstow-workshop</strong> → click the green <strong>Code</strong> button → <strong>Download ZIP</strong></div>
+<div class="setup-step">Go to <a href="https://tinyurl.com/python-walthamstow-workshop" target="_blank"><strong>tinyurl.com/python-walthamstow-workshop</strong></a> → click the green <strong>Code</strong> button → <strong>Download ZIP</strong></div>
 
 <div class="setup-step">Then unzip it:</div>
 
@@ -92,7 +92,7 @@ class: exercise-header
 
 # Step 2 — Open the workshop in Saarai
 
-1. Open <img src="https://api.iconify.design/logos:chrome.svg" width="18" height="18" style="vertical-align:middle;display:inline-block;flex-shrink:0" /> **Chrome** and go to **saarai.dev**
+1. Open <img src="https://api.iconify.design/logos:chrome.svg" width="18" height="18" style="vertical-align:middle;display:inline-block;flex-shrink:0" /> **Chrome** and go to <a href="https://saarai.dev" target="_blank">**saarai.dev**</a>
 2. Click **File → Open Folder**
 3. Find your workshop folder (e.g. on the Desktop) → select it → click **Open**
 4. You'll see the `exercises` folder appear in the left panel
@@ -802,7 +802,7 @@ A browsable, searchable database of **9,000+ real songs** — the same dataset y
 
 Open it in Chrome:
 
-<div class="setup-step" style="font-size: 1.15em;">👉 <strong>tinyurl.com/7tdxxp57</strong></div>
+<div class="setup-step" style="font-size: 1.15em;">👉 <a href="https://tinyurl.com/7tdxxp57" target="_blank"><strong>tinyurl.com/7tdxxp57</strong></a></div>
 
 No login, no install — it works straight in your browser.
 
@@ -811,7 +811,7 @@ No login, no install — it works straight in your browser.
 # How to use the Explorer
 
 <div class="concepts-list">
-  <div>1 · Go to <strong>tinyurl.com/7tdxxp57</strong></div>
+  <div>1 · Go to <a href="https://tinyurl.com/7tdxxp57" target="_blank"><strong>tinyurl.com/7tdxxp57</strong></a></div>
   <div>2 · Type a song, artist, or genre in the <strong>search box</strong></div>
   <div>3 · Use the <strong>column headers</strong> to sort — click BPM to find the fastest songs</div>
   <div>4 · Use the <strong>genre filter</strong> to narrow down results</div>

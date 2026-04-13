@@ -29,6 +29,8 @@ jobs:
 
       - run: npm run build -- --base /python-workshop-slides/
 
+      - run: VITE_STUDENT_MODE=true npm run build -- --base /python-workshop-slides/student/ --out dist/student
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

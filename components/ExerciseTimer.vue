@@ -1,6 +1,8 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 
+const isStudentMode = import.meta.env.VITE_STUDENT_MODE === 'true'
+
 // ── Timer state ─────────────────────────────────────────────
 const DEFAULT_MIN = 3
 const totalSecs  = ref(DEFAULT_MIN * 60)
@@ -192,7 +194,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="et" :class="{ 'et-run': running, 'et-done': done }">
+  <div v-if="!isStudentMode" class="et" :class="{ 'et-run': running, 'et-done': done }">
     <div class="et-label">Timer</div>
     <div
       v-if="!editing"

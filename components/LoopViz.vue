@@ -122,7 +122,7 @@ onUnmounted(() => clearInterval(timer))
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 7px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.15s, border-color 0.15s, transform 0.15s;
@@ -178,7 +178,7 @@ onUnmounted(() => clearInterval(timer))
   border-radius: 8px;
   overflow: hidden;
   background: #F8F5F0;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .lv-output-bar {
@@ -237,7 +237,7 @@ onUnmounted(() => clearInterval(timer))
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 6px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.88rem;
   color: #321E37;
   cursor: pointer;

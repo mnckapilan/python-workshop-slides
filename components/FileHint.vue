@@ -21,7 +21,7 @@ defineProps({
   gap: 0.4rem;
   white-space: nowrap;
   z-index: 5;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 /* ── Default: bottom-centre pill ── */

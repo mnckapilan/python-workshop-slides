@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
 /* ============================================================
    Starling brand fonts (self-hosted from starlingbank.com)
    ============================================================ */
@@ -42,7 +44,7 @@
 
   --font-head: 'Avantt', sans-serif;
   --font-body: 'Avantt', sans-serif;
-  --font-mono: 'Fira Code', monospace;
+  --font-mono: 'Roboto Mono', monospace;
   --font-cta:  'CoFo Sans Semi-Mono', monospace;
 }
 

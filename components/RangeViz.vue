@@ -112,7 +112,7 @@ onUnmounted(() => clearInterval(timer))
 }
 
 .rv-label code {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.9rem;
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
@@ -136,7 +136,7 @@ onUnmounted(() => clearInterval(timer))
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 8px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.95rem;
   transition: background 0.2s, border-color 0.2s, transform 0.15s;
 }
@@ -176,7 +176,7 @@ onUnmounted(() => clearInterval(timer))
   border-radius: 8px;
   overflow: hidden;
   background: #F8F5F0;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .rv-output-bar {
@@ -232,7 +232,7 @@ onUnmounted(() => clearInterval(timer))
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 6px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.88rem;
   color: #321E37;
   cursor: pointer;

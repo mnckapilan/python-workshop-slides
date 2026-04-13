@@ -128,7 +128,7 @@ function reset() {
   padding: 0.35rem 0.85rem;
   border: 1.5px solid;
   border-radius: 7px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.88rem;
 }
 
@@ -146,7 +146,7 @@ function reset() {
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 8px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   line-height: 1.9;
 }
@@ -184,7 +184,7 @@ function reset() {
   border-radius: 8px;
   overflow: hidden;
   background: #F8F5F0;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   transition: border-color 0.35s;
 }
 
@@ -232,7 +232,7 @@ function reset() {
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 6px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.88rem;
   color: #321E37;
   cursor: pointer;

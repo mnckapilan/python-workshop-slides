@@ -130,7 +130,7 @@ const displayName = computed(
   border: 1px solid #D6D2D7;
   border-radius: 8px;
   overflow: hidden;
-  font-family: "Fira Code", monospace;
+  font-family: "Roboto Mono", monospace;
   background: #F8F5F0;
   font-size: 0.88rem;
   line-height: 1.62;
@@ -158,7 +158,7 @@ const displayName = computed(
 
 .ce-clear,
 .ce-clear-placeholder {
-  font-family: "Fira Code", monospace;
+  font-family: "Roboto Mono", monospace;
   font-size: 0.72rem;
   color: #706273;
   background: none;

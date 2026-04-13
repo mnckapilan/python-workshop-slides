@@ -111,13 +111,13 @@ const presets = [
 }
 
 .cv-code {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1.05rem;
   color: #706273;
 }
 
 .cv-bpm-display {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 2rem;
   font-weight: 700;
   color: #321E37;
@@ -163,7 +163,7 @@ const presets = [
   background: #EAE8EB;
   border: 1px solid #D6D2D7;
   border-radius: 5px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.78rem;
   color: #706273;
   cursor: pointer;
@@ -197,7 +197,7 @@ const presets = [
   padding: 0.75rem 1.2rem;
   border: 1px solid #D6D2D7;
   border-radius: 8px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 1rem;
   background: #EAE8EB;
   transition: background 0.2s, border-color 0.2s, transform 0.2s, opacity 0.2s;
@@ -225,7 +225,7 @@ const presets = [
 }
 
 .cv-condition {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.95rem;
   color: #A89DAD;
   background: #EAE8EB;

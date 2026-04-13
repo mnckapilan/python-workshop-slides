@@ -73,7 +73,6 @@ presenters = [
 workshop = {
     "title":    "Getting Started with Python",
     "location": "Walthamstow",
-    "duration": "2 hours",
     "level":    "Complete beginner",
 }
 

@@ -20,7 +20,7 @@ fonts:
   <div class="ic-left">
     <p class="ic-label">Python · Music · Code</p>
     <h1>Getting Started<br>with Python</h1>
-    <p class="ic-sub">A 2-hour coding workshop</p>
+    <p class="ic-sub">A coding workshop</p>
   </div>
   <CoverScroller />
 </div>
@@ -29,7 +29,7 @@ fonts:
 
 # How today works
 
-Over the next **2 hours** you'll learn the core building blocks of Python — using songs, playlists, albums, and lyrics as your playground. Every section follows the same rhythm:
+Today you'll learn the core building blocks of Python — using songs, playlists, albums, and lyrics as your playground. Every section follows the same rhythm:
 
 <div class="d-row" style="margin: 1.1rem 0; gap: 0.9rem; flex-wrap: wrap;">
   <span class="d-box">📖 Live example on screen</span>
@@ -546,13 +546,7 @@ const code = `album = {
 }
 
 print(album["title"])       # Future Nostalgia
-print(album["tracks"][3])   # Cool
-
-for track_num, track_title in album["tracks"].items():
-    print(f"Track {track_num}: {track_title}")
-
-album["label"] = "Warner Records"   # add a new key after creation
-print(album["label"])               # Warner Records`
+print(album["tracks"][3])   # Cool`
 </script>
 
 <CodeBlock :code="code" lang="python" filename="dictionaries.py" />
@@ -830,4 +824,5 @@ layout: center
   <span>functions</span>
   <span>file I/O</span>
 </div>
+<a class="slides-download" href="https://mnckapilan.github.io/python-workshop-slides/student/download/" target="_blank">↓ Download slides (PDF)</a>
 

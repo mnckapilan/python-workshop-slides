@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
 
 /* ============================================================
-   Starling brand fonts (self-hosted from starlingbank.com)
+   Brand fonts (self-hosted)
    ============================================================ */
 
 @font-face {
   font-family: 'Avantt';
-  src: url('/fonts/AvanttVF.woff2') format('woff2');
+  src: url('https://www.starlingbank.com/permanent-assets/fonts/AvanttVF.woff2') format('woff2');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -22,25 +22,25 @@
 
 
 /* ============================================================
-   Python Music Workshop — Starling Bank brand palette (2025)
+   Python Music Workshop — brand palette (2025)
    bg #F8F5F0 · surface #ffffff · text #321E37
    teal #0A6B64 · cyan #0A5750 · green #00AB6C
    muted #706273 · border #D6D2D7
    ============================================================ */
 
 :root {
-  --bg:       #F8F5F0;  /* Starling offWhite */
+  --bg:       #F8F5F0;
   --surface:  #ffffff;
-  --hl:       #EAE8EB;  /* starlingPurple10 */
-  --text:     #321E37;  /* starlingPurple */
-  --muted:    #706273;  /* starlingPurple70 */
+  --hl:       #EAE8EB;
+  --text:     #321E37;
+  --muted:    #706273;
   --subtle:   #A89DAD;  /* mid purple-grey */
   --blue:     #0A6B64;  /* dark teal – 5.85:1 on offWhite, AA compliant */
   --cyan:     #0A5750;  /* darker teal – 7.75:1 on offWhite, for inline code */
-  --green:    #00AB6C;  /* successGreen */
-  --purple:   #D7A5F0;  /* secondaryLiliac */
+  --green:    #00AB6C;
+  --purple:   #D7A5F0;
   --orange:   #C49AC8;  /* warm lilac-pink */
-  --border:   #D6D2D7;  /* starlingPurpleTint20 */
+  --border:   #D6D2D7;
 
   --font-head: 'Avantt', sans-serif;
   --font-body: 'Avantt', sans-serif;

@@ -27,6 +27,10 @@ jobs:
 
       - run: npm ci
 
+      - run: npx playwright install --with-deps chromium
+
+      - run: npx slidev export slides.md --output public/download/slides.pdf
+
       - run: npm run build -- --base /python-workshop-slides/
 
       - run: VITE_STUDENT_MODE=true npm run build -- --base /python-workshop-slides/student/ --out dist/student
